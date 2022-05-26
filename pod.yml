@@ -1,0 +1,14 @@
+api version : 1
+kind : pod
+meta data :
+  name : nginx-pod
+  lables:
+  env : prod-pod
+  type :front-end
+identifier : nginx-fe-prod-prod
+spec :
+  containers :
+  -name : nginx-ctr
+  image : nginx
+  port :
+  -containerport : 80
